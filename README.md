@@ -1,6 +1,10 @@
 # template-typescript
 
+[![Build Status](https://travis-ci.com/metonym/template-typescript.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript)
+
 > Base template for TypeScript projects
+
+This project provides basic scaffolding for developing and building TypeScript libraries.
 
 ## Overview
 
@@ -37,3 +41,7 @@ To ensure that committed code follows conventions, this project uses `prettier`,
 ## Continuous Integration
 
 This template uses `Travis CI` to build and test remote changes.
+
+## License
+
+[MIT](LICENSE)
