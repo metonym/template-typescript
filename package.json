@@ -10,8 +10,7 @@
     "develop": "tsc -w",
     "build": "rm -rf lib && tsc",
     "test": "jest",
-    "lint": "tslint --fix -p . -c tslint.json",
-    "prepublishOnly": "yarn test && yarn build"
+    "lint": "tslint --fix -p . -c tslint.json"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.0.0",
