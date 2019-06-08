@@ -1,7 +1,15 @@
-import { main } from '../src';
+import Template from '../src';
+import { Mode } from '../src/Template';
 
-describe('main', () => {
-  it('returns the correct value', () => {
-    expect(main()).toEqual(4);
+let template: Template;
+
+describe('Template', () => {
+  beforeEach(() => {
+    template = undefined;
+  });
+
+  test('instantiation', () => {
+    template = new Template({ mode: Mode.dev });
+    expect(template).toBeInstanceOf(Template);
   });
 });

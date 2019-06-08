@@ -1,5 +1,3 @@
-function main() {
-  return 4;
-}
+import Template from './Template';
 
-export { main };
+export default Template;
