@@ -9,7 +9,7 @@
   "scripts": {
     "develop": "tsc -w",
     "build": "rm -rf lib && tsc",
-    "test": "jest",
+    "test": "jest --coverage",
     "lint": "tslint --fix -p . -c tslint.json"
   },
   "devDependencies": {
