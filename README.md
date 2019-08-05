@@ -1,8 +1,9 @@
 # template-typescript
 
-[![Build Status](https://travis-ci.com/metonym/template-typescript.svg?token=WM4sWTyTsYsN8hUSbhzn&branch=master)](https://travis-ci.com/metonym/template-typescript)
+[![Build][build]][build-badge]
+[![Coverage][codecov-shield]][codecov]
 
-> Base template for TypeScript projects
+> Template for developing TypeScript projects.
 
 This project provides basic scaffolding for developing and building TypeScript libraries.
 
@@ -45,3 +46,8 @@ This template uses `Travis CI` to build and test remote changes.
 ## License
 
 [MIT](LICENSE)
+
+[build]: https://travis-ci.com/metonym/template-typescript.svg?branch=master
+[build-badge]: https://travis-ci.com/metonym/template-typescript
+[codecov]: https://codecov.io/gh/metonym/template-typescript
+[codecov-shield]: https://img.shields.io/codecov/c/github/metonym/template-typescript.svg
