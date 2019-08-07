@@ -50,4 +50,4 @@ This template uses `Travis CI` to build and test remote changes.
 [build]: https://travis-ci.com/metonym/template-typescript.svg?branch=master
 [build-badge]: https://travis-ci.com/metonym/template-typescript
 [codecov]: https://codecov.io/gh/metonym/template-typescript
-[codecov-shield]: https://img.shields.io/codecov/c/github/metonym/template-typescript.svg
+[codecov-shield]: https://codecov.io/gh/metonym/template-typescript/branch/master/graph/badge.svg
