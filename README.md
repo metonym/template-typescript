@@ -7,33 +7,34 @@
 
 This project provides basic scaffolding for developing and building TypeScript libraries.
 
-## Overview
+## Getting Started
 
-### Develop
-
-This command builds the project in watch mode. The source (i.e. entry) is in `src`, which is outputted in the designated folder `lib`.
-
-The destination folder can be changed through the `outDir` value in `tsconfig.json`.
+Clone the template:
 
 ```bash
-yarn develop
+git clone git@github.com:metonym/template-typescript.git
+cd template-typescript
 ```
 
-### Build
-
-This command removes the `lib` folder and builds the project.
+Install its dependencies:
 
 ```bash
-yarn build
+yarn install
 ```
 
-### Test
+## Available Scripts
 
-This command runs tests located in the `tests` folder.
+### `yarn test:tdd`
 
-```bash
-yarn test
-```
+Runs the project in development mode and watches for any changes.
+
+### `yarn build`
+
+Builds the project for production. The build directory is `dist`; types will be written to `dist/index.d.ts`. Customize the build directory in the `outDir` configuration option in the [tsconfig.json](tsconfig.json).
+
+### `yarn test`
+
+Runs test suites and generates a coverage report.
 
 ## Linting, formatting and committing
 
