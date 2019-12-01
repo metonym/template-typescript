@@ -24,17 +24,17 @@ yarn install
 
 ## Available Scripts
 
+### `yarn test`
+
+Runs test suites and generates a coverage report.
+
 ### `yarn test:tdd`
 
-Runs the project in development mode and watches for any changes.
+Runs all test suites and watches for any changes. Use this command when developing the project.
 
 ### `yarn build`
 
 Builds the project for production. The build directory is `dist`; types will be written to `dist/index.d.ts`. Customize the build directory in the `outDir` configuration option in the [tsconfig.json](tsconfig.json).
-
-### `yarn test`
-
-Runs test suites and generates a coverage report.
 
 ## Linting, formatting and committing
 
