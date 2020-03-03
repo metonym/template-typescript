@@ -1,6 +1,6 @@
 {
   "name": "template-typescript",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "description": "Template for developing TypeScript projects",
   "author": "Eric Liu (https://github.com/metonym)",
