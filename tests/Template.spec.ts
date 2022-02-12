@@ -1,22 +1,21 @@
-import Template from '../src';
-import { Mode } from '../src/Template';
+import { describe, beforeEach, expect, test, vi } from "vitest";
+import Template from "../src";
+import { Mode } from "../src/Template";
 
-let template: Template | undefined;
+describe("Template", () => {
+  let template: Template | null;
 
-describe('Template', () => {
   beforeEach(() => {
-    template = undefined;
+    template = null;
   });
 
-  it('instantiates in `dev` mode', () => {
-    // tslint:disable: no-console
-    console.log = jest.fn();
+  test("`dev` mode", () => {
+    console.log = vi.fn();
     expect(console.log).not.toHaveBeenCalled();
 
     template = new Template({ mode: Mode.dev });
 
     expect(template).toBeInstanceOf(Template);
-    expect(console.log).toHaveBeenCalled();
-    // tslint:enable: no-console
+    expect(console.log).toHaveBeenCalledWith("dev mode");
   });
 });
